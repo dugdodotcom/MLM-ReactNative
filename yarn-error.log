@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aldo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\;C:\Program Files\PostgreSQL\10\bin;C:\Program Files\PostgreSQL\10\lib;C:\Program Files\nodejs\;C:\Users\aldo\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\aldo\AppData\Local\Programs\Python\Python36\;C:\Program Files\heroku\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\;C:\Users\aldo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aldo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\aldo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:420:28)
+      at ClientRequest.emit (events.js:314:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:769:9)
+      at Object.onceWrapper (events.js:420:28)
+      at TLSSocket.emit (events.js:326:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:551:17)
+      at processTimers (internal/timers.js:494:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^10.0.0",
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "^5.6.1",
+      "@react-navigation/native": "^5.6.1",
+      "@react-navigation/stack": "^5.6.2",
+      "expo": "~38.0.8",
+      "expo-asset": "~8.1.7",
+      "expo-constants": "~9.1.1",
+      "expo-font": "~8.2.1",
+      "expo-linking": "^1.0.1",
+      "expo-splash-screen": "~0.3.1",
+      "expo-status-bar": "^1.0.2",
+      "expo-web-browser": "~8.3.1",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-safe-area-context": "~3.0.7",
+      "react-native-screens": "~2.9.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.23",
+      "@types/react-native": "~0.62.13",
+      "babel-preset-expo": "~8.1.0",
+      "jest-expo": "~38.0.0",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
